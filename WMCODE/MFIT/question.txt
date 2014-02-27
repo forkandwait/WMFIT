@@ -1,0 +1,22 @@
+Hi Yall
+
+I am considering using "sequential quadratic programming" (SQP) in Octave (1) to
+expand on a software framework I implemented to fit transition matrices to
+cross-sectional data (2).
+
+My question is basically: Can I be confident that SQP finds the global optimum
+as long as I can prove the problem is convex? If not, why not? Any special
+cases? Weird numerics?
+
+I want to expand my framework to handle some of the regularization techniques
+and alternative norms presented in B&L (3), chapter 6. Some of the techniques
+can implemented by modifying the basic QP matrices, but not all of them (at
+least that I can figure out). SQP is much more general, and thus dangerous...
+
+Thanks for looking!
+
+(1) http://www.gnu.org/software/octave/doc/interpreter/Nonlinear-Programming.html
+
+(2) http://arxiv.org/abs/1203.2313
+
+(3) http://www.stanford.edu/~boyd/cvxbook/

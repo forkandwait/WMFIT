@@ -1,0 +1,56 @@
+function out = States
+    ## cell array of state names, codes, census regions, census divisions
+    out = {
+           "01",   "AL",     "ALABAMA"            ,        "S"   ,            "ESC"  ; 
+           "02",   "AK",     "ALASKA"             ,        "W"   ,            "PAC"  ; 
+           "04",   "AZ",     "ARIZONA"            ,        "W"   ,            "MNT"  ; 
+           "05",   "AR",     "ARKANSAS"           ,        "S"   ,            "WSC"  ; 
+           "06",   "CA",     "CALIFORNIA"         ,        "W"   ,            "PAC"  ; 
+           "08",   "CO",     "COLORADO"           ,        "W"   ,            "MNT"  ; 
+           "09",   "CT",     "CONNECTICUT"        ,        "NE"  ,            "NE"   ; 
+           "10",   "DE",     "DELAWARE"           ,        "S"   ,            "SA"   ; 
+           "11",   "DC",     "DISTRICTOFCOLUMBIA" ,        "S"   ,            "SA"   ; 
+           "12",   "FL",     "FLORIDA"            ,        "S"   ,            "SA"   ; 
+           "13",   "GA",     "GEORGIA"            ,        "S"   ,            "SA"   ; 
+           "15",   "HI",     "HAWAII"             ,        "W"   ,            "PAC"  ; 
+           "16",   "ID",     "IDAHO"              ,        "W"   ,            "MNT"  ; 
+           "17",   "IL",     "ILLINOIS"           ,        "MW"  ,            "ENC"  ; 
+           "18",   "IN",     "INDIANA"            ,        "MW"  ,            "ENC"  ; 
+           "19",   "IA",     "IOWA"               ,        "MW"  ,            "WNC"  ; 
+           "20",   "KS",     "KANSAS"             ,        "MW"  ,            "WNC"  ; 
+           "21",   "KY",     "KENTUCKY"           ,        "S"   ,            "ESC"  ; 
+           "22",   "LA",     "LOUISIANA"          ,        "S"   ,            "WSC"  ; 
+           "23",   "ME",     "MAINE"              ,        "NE"  ,            "NE"   ; 
+           "24",   "MD",     "MARYLAND"           ,        "S"   ,            "SA"   ; 
+           "25",   "MA",     "MASSACHUSETTS"      ,        "NE"  ,            "NE"   ; 
+           "26",   "MI",     "MICHIGAN"           ,        "MW"  ,            "ENC"  ; 
+           "27",   "MN",     "MINNESOTA"          ,        "MW"  ,            "WNC"  ; 
+           "28",   "MS",     "MISSISSIPPI"        ,        "S"   ,            "ESC"  ; 
+           "29",   "MO",     "MISSOURI"           ,        "MW"  ,            "WNC"  ; 
+           "30",   "MT",     "MONTANA"            ,        "W"   ,            "MNT"  ; 
+           "31",   "NE",     "NEBRASKA"           ,        "MW"  ,            "WNC"  ; 
+           "32",   "NV",     "NEVADA"             ,        "W"   ,            "MNT"  ; 
+           "33",   "NH",     "NEWHAMPSHIRE"       ,        "NE"  ,            "NE"   ; 
+           "34",   "NJ",     "NEWJERSEY"          ,        "NE"  ,            "MA"   ; 
+           "35",   "NM",     "NEWMEXICO"          ,        "W"   ,            "MNT"  ; 
+           "36",   "NY",     "NEWYORK"            ,        "NE"  ,            "MA"   ; 
+           "37",   "NC",     "NORTHCAROLINA"      ,        "S"   ,            "SA"   ; 
+           "38",   "ND",     "NORTHDAKOTA"        ,        "MW"  ,            "WNC"  ; 
+           "39",   "OH",     "OHIO"               ,        "MW"  ,            "ENC"  ; 
+           "40",   "OK",     "OKLAHOMA"           ,        "S"   ,            "WSC"  ; 
+           "41",   "OR",     "OREGON"             ,        "W"   ,            "PAC"  ; 
+           "42",   "PA",     "PENNSYLVANIA"       ,        "NE"  ,            "MA"   ; 
+           "44",   "RI",     "RHODEISLAND"        ,        "NE"  ,            "NE"   ; 
+           "45",   "SC",     "SOUTHCAROLINA"      ,        "S"   ,            "SA"   ; 
+           "46",   "SD",     "SOUTHDAKOTA"        ,        "MW"  ,            "WNC"  ; 
+           "47",   "TN",     "TENNESSEE"          ,        "S"   ,            "ESC"  ; 
+           "48",   "TX",     "TEXAS"              ,        "S"   ,            "WSC"  ; 
+           "49",   "UT",     "UTAH"               ,        "W"   ,            "MNT"  ; 
+           "50",   "VT",     "VERMONT"            ,        "NE"  ,            "NE"   ; 
+           "51",   "VA",     "VIRGINIA"           ,        "S"   ,            "SA"   ; 
+           "53",   "WA",     "WASHINGTON"         ,        "W"   ,            "PAC"  ; 
+           "54",   "WV",     "WESTVIRGINIA"       ,        "S"   ,            "SA"   ; 
+           "55",   "WI",     "WISCONSIN"          ,        "MW"  ,            "WNC"  ; 
+           "56",   "WY",     "WYOMING"            ,        "W"   ,            "MNT"  ; 
+    };
+endfunction
